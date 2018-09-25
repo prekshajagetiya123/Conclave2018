@@ -1,0 +1,215 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('fonts/Product Sans.ttf');
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #003c5d;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: rgba(19, 23, 28, 0.65);
+  text-decoration: none!important;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/*
+
+            Main Styling Of Body #1 Masthead; commits by Dewansh Rawat, Somil Jain and Shubham Tyagi
+
+*/
+
+
+  @font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/Product Sans.ttf');
+  }
+  
+  .hero{
+    background: url('../img/bg.jpg') center center no-repeat;
+    padding: 250px 0 250px 0;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .hero-icon{
+    margin-top: 40px;
+  }
+
+/*
+  .custom-canvas{
+    display: ;
+  }
+*/
+  .hero-title{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 56px;
+  }
+
+  .motto{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  /* home social-list */
+.home-social-list {
+  position: absolute;
+  left: 32px;
+  bottom: 54px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 2.4rem;
+  line-height: 1.75;
+  text-align: center;
+}
+.home-social-list li {
+  padding-left: 0;
+}
+.home-social-list li a,
+.home-social-list li a:visited {
+  color: #ffffff;
+}
+.home-social-list li a:hover,
+.home-social-list li a:focus,
+.home-social-list li a:active {
+  color: #151515;
+}
+  
+  @media(max-width: 768px){
+
+    .hero-title{
+      font-size: 42px;
+    }
+
+    .home-social-list {
+      left: 36px;
+      bottom: 30px;
+      font-size: 2.1rem;
+    }
+
+    .home-social-list::before {
+      height: 30px;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .home-social-list {
+      left: 30px;
+      bottom: 30px;
+      font-size: 1.8rem;
+    }
+  }
+
+  .fa{
+    transition: 750ms;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .fa-facebook:hover{
+    transition: 750ms;
+    color: #3B5998;
+  }
+
+  .fa-instagram:hover{
+    transition: 750ms;
+    color: #ffc838;
+  }
+
+  .fa-twitter:hover{
+    transition: 750ms;
+    color: #0084FF;
+  }
+
+  .fa-linkedin:hover{
+    transition: 750ms;
+    color: #0077B5;
+  }
+
+  .fa-envelope:hover{
+    transition: 750ms;
+    color: #e74c3c;
+  }
+
+  .contact-icon{
+    color: #2577fc;
+  }
+
+  .fatext{
+    color: #fff;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .scroll-link{
+    position: absolute;
+    right: 2.25%;
+    top: 90%;
+    transition: 600ms;
+    cursor: pointer;
+    text-transform: uppercase;
+    transform: translate(0%, -50%) rotate(90deg);
+    color: #fff;
+  }
+
+  .scroll-link i{
+    cursor: pointer;
+    font-size: 36px;
+  }
+
+  .neeche{
+    top: 93%;
+    transition: 600ms;
+  }
+
+/* Footer text */
+
+.footer{
+  padding: 75px 0 65px 0;
+  background: #13171c;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Product Sans', sans-serif;
+}
+
+.author{
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.heart{
+  color: #ffc107;
+}
+
+.cright{
+  font-size: 28px;
+}
