@@ -191,6 +191,51 @@ img {
     transition: 600ms;
   }
 
+/* About */
+
+.about{
+  padding: 175px 0 175px 0;
+  background: #fff;
+}
+
+.about-title{
+  font-family: 'Product Sans', sans-serif;
+  font-size: 36px;
+}
+
+.line{
+  width: 490px;
+  height: 3px; 
+  border: none;
+  outline: none;
+  background: #13171c;
+}
+
+.about-text{
+  font-family: 'Product Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* Timeline */
+
+.timeline{
+  padding: 25px 0 125px 0;
+  background: #fff;
+}
+
+.timeline-title{
+  font-family: 'Product Sans', sans-serif;
+  font-size: 36px;
+}
+
+.timeline-line{
+  width: 175px;
+  height: 3px; 
+  border: none;
+  outline: none;
+  background: #13171c;
+}
+
 /* Footer text */
 
 .footer{
