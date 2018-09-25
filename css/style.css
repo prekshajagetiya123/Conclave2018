@@ -37,7 +37,7 @@ img {
 
 /*
 
-            Main Styling Of Body #1 Masthead; commits by Dewansh Rawat, Somil Jain and Shubham Tyagi
+  Main Styling Of Body #1 Masthead; commits by Dewansh Rawat, Somil Jain and Shubham Tyagi
 
 */
 
@@ -155,7 +155,7 @@ img {
     color: #0077B5;
   }
 
-  .fa-envelope:hover{
+  .fa-google-plus:hover{
     transition: 750ms;
     color: #e74c3c;
   }
