@@ -219,8 +219,8 @@ img {
 /* Timeline */
 
 .timeline{
-  padding: 25px 0 125px 0;
-  background: #fff;
+  padding: 125px 0 125px 0;
+  background: #f8f8f8;
 }
 
 .timeline-title{
@@ -235,6 +235,48 @@ img {
   outline: none;
   background: #13171c;
 }
+
+.timeline-list{
+  color: #13171c;
+  display: inline-block;
+  font-family: 'Product Sans', sans-serif;
+  font-size: 20px;
+}
+
+.timeline-day{
+  font-family: 'Product Sans', sans-serif;
+  font-size: 28px;
+}
+
+.time{
+  font-size: 20px;
+  border-left: 2px solid #2577fc;
+  padding-left: 12px;
+  color: #2577fc;
+  display: inline-block;
+  font-family: 'Product Sans', sans-serif;
+}
+
+/* Sponsors */
+
+.sponsors{
+  padding: 125px 0 125px 0;
+  background: #fff;
+}
+
+.sponsors-title{
+  font-family: 'Product Sans', sans-serif;
+  font-size: 36px;
+}
+
+.sponsors-line{
+  width: 175px;
+  height: 3px; 
+  border: none;
+  outline: none;
+  background: #13171c;
+}
+
 
 /* Footer text */
 

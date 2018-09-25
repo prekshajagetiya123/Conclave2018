@@ -29,9 +29,4 @@ jQuery(document).ready(function(){
 		window.open("https://github.com/EDCBVUCOEP")
 	})
 
-	/*When clicking on Full hide fail/success boxes */
-	$('#name').focus(function() {
-  		$('#success').html('');
-	})
-
 })
