@@ -48,7 +48,7 @@ img {
   }
   
   .hero{
-    background: url('../img/bg.jpg') center center no-repeat;
+    background: url('../img/Masterhead.jpg') center center no-repeat;
     padding: 250px 0 250px 0;
     background-attachment: fixed;
     background-size: cover;
@@ -179,11 +179,6 @@ img {
     text-transform: uppercase;
     transform: translate(0%, -50%) rotate(90deg);
     color: #fff;
-  }
-
-  .jabardasti{
-    transition: 600ms;
-    right: -2.5%;
   }
 
   .scroll-link i{
