@@ -21,6 +21,10 @@ jQuery(document).ready(function(){
     $('.hero').css('height', ''+htemp+'');
 	})
 
+	setTimeout(function(){
+		$('.scroll-link').removeClass('jabardasti')
+	}, 800)
+
 	$('.scroll-link').click(function(){
 		$('html, body').animate({ scrollTop: $('.about').offset().top}, 750)
 	})

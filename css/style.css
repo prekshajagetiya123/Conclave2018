@@ -181,6 +181,11 @@ img {
     color: #fff;
   }
 
+  .jabardasti{
+    transition: 600ms;
+    right: -2.5%;
+  }
+
   .scroll-link i{
     cursor: pointer;
     font-size: 36px;
